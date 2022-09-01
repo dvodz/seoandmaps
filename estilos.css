@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+nav {
+  background: rgb(67, 36, 98);
+  height: 95px;
+  width: 100%;
+}
+
+br {
+  height: 10px;
+  width: 30%;
+}
+
+h1 {
+  background: rgb(67, 36, 98);
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  color: rgb(3, 126, 233);
+}
+
+.enlace {
+  position: absolute;
+  padding: 5px 30px;
+  width: 30;
+}
+
+.logo {
+  height: 40px;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: aliceblue;
+  font-size: 20px;
+  padding: 7px 13px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+li a.active, li a:hover {
+  background: rgb(188, 33, 212);
+  transition: 0.1s;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: floralwhite;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+h2 {
+  background: rgb(54, 4, 104);
+  color: aliceblue;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+  border: #000;
+  padding: 20px;
+}
+
+main {
+  height: 500px;
+  width: 100%;
+  background-image: url(multimedia/img6.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: "Oswald", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  text-transform: capitalize;
+  color: white;
+}
+
+col {
+  color: white;
+}
+
+p {
+  font-family: "Oswald", sans-serif;
+  margin: 10%;
+}
+
+.botoncall {
+  background-color: rgba(122, 4, 122, 0.707);
+  text-decoration: none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 20px;
+}
+
+.call {
+  background-color: rgb(54, 4, 104);
+  width: 50%;
+  padding: 20px;
+  margin: 0 auto;
+  border: 3px rgb(95, 0, 95);
+}
+
+.callp {
+  margin-bottom: 20px;
+}
+
+.maps-red {
+  background-color: #000;
+  height: 200px;
+  width: 400px;
+  border: 10px solid violet;
+  text-align: center;
+  font-size: 20px;
+  line-height: 200px;
+  color: violet;
+  text-transform: uppercase;
+  text-shadow: 0 0 20px violet;
+  font-family: cursive;
+  border-radius: 10px;
+}
+
+.maps-orange {
+  background-color: #000;
+  height: 200px;
+  width: 400px;
+  border: 10px solid violet;
+  text-align: center;
+  font-size: 40px;
+  line-height: 200px;
+  color: violet;
+  text-transform: uppercase;
+  text-shadow: 0 0 40px violet;
+  font-family: cursive;
+  border-radius: 10px;
+}
+
+.maps-yellow {
+  background-color: #000;
+  height: 200px;
+  width: 400px;
+  border: 10px solid violet;
+  text-align: center;
+  font-size: 60px;
+  line-height: 200px;
+  color: violet;
+  text-transform: uppercase;
+  text-shadow: 0 0 60px violet;
+  font-family: cursive;
+  border-radius: 10px;
+}
+
+.maps-violet {
+  background-color: #000;
+  height: 200px;
+  width: 400px;
+  border: 10px solid violet;
+  text-align: center;
+  font-size: 80px;
+  line-height: 200px;
+  color: violet;
+  text-transform: uppercase;
+  text-shadow: 0 0 80px violet;
+  font-family: cursive;
+  border-radius: 10px;
+}
+
+footer {
+  height: 70px;
+  color: white;
+  background-color: rgb(8, 8, 221);
+  width: 100%;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 15px;
+  text-transform: capitalize;
+  padding: 20px;
+}
+
+footer i {
+  font-size: 20px;
+  color: rgb(131, 0, 146);
+  letter-spacing: 20px;
+  margin-top: 20px;
+}
+
+@media (max-width: 952px) {
+  .enlace {
+    padding-left: 20px;
+  }
+  nav ul li a {
+    font-size: 16px;
+  }
+}
+@media (max-width: 858px) {
+  .checkbtn {
+    display: block;
+  }
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a {
+    font-size: 20px;
+  }
+  li a:hover, li a.active {
+    background: none;
+    color: blueviolet;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
+}
+/*# sourceMappingURL=estilos.css.map *//*# sourceMappingURL=estilos.css.map */
